@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">More<a/></li>
+    </nav>
+
+    <section>
+      <form action="https://www.imdb.com/find" method="get" target="_blank">
+        <p><label for="query">Movie here please:</label></p>
+        <p><input id="query" type="text" name="q"></p>
+
+        <label for="cat">
+          <p>What Kind?</p>
+        <p>
+          <select name="cat">
+            <option value="all">All</option>
+            <option value="tt">Title</option>
+            <option value="ep">TV Episodes</option>
+            <option value="nm">Names</option>
+            <option value="co">Companies</option>
+            <option value="kw">Keywords</option>
+          </select>
+        </p>
+
+          <p><button type="submit">Submit</button></p>
+      </form>
+    </section>
+
+
+  </body>
+</html>
